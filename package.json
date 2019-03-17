@@ -25,6 +25,10 @@
   },
   "main": "./unpacked/MathJax.js",
   "scripts": {
-    "test": "echo 'No tests here!'"
+    "test": "echo 'No tests here!'",
+    "prettier": "prettier  '**/*.js' --write"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
   }
 }
